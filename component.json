@@ -8,7 +8,8 @@
     "treygriffith/oz": "^0.1.0",
     "treygriffith/oz-text": "^0.0.1",
     "ramitos/children": "*",
-    "component/assert": "*"
+    "component/assert": "*",
+    "matthewp/text": "0.0.2",
   },
   "scripts": [
     "index.js"
