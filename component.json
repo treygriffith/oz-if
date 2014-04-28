@@ -9,7 +9,7 @@
     "treygriffith/oz-text": "^0.0.1",
     "ramitos/children": "*",
     "component/assert": "*",
-    "matthewp/text": "0.0.2",
+    "matthewp/text": "0.0.2"
   },
   "scripts": [
     "index.js"

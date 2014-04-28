@@ -1,11 +1,14 @@
 
 var Oz = require('oz');
 var ozText = require('oz-text');
+var ozIf = require('oz-if');
 var assert = require('assert');
 var text = require('text');
 var children = require('children');
 
-Oz.use(ozText);
+Oz
+  .use(ozText)
+  .use(ozIf);
 
 describe('Rendering', function(){
 
