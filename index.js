@@ -14,16 +14,12 @@ module.exports.render = render;
  * output: <div oz-if="person.active" style="display:none"></div>
  */
 
-function render (el, ctx, prop, scope, next) {
-
-  var val = this.get(ctx, prop);
+function render (el, val) {
 
   if(!val || (Array.isArray(val) && val.length === 0)) {
     this.hide(el);
   } else {
     this.show(el);
   }
-
-  next();
 }
 
